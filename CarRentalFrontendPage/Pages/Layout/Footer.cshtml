@@ -1,0 +1,46 @@
+﻿<footer class="footer" id="page-footer">
+    <div class="logoDiv">
+        @await Html.PartialAsync("Layout/ProjektLogo")
+    </div>
+
+    <div class="contactDiv">
+        <h2>Kontakt</h2>
+
+        <p onclick="openMap(@projectInfo.Value.Latitude, @projectInfo.Value.Longitude)">
+            <i class="bi bi-geo-alt"></i>
+            <span>@projectInfo.Value.Address</span>
+        </p>
+
+        <p onclick="openEmail('@projectInfo.Value.Email')">
+            <i class="bi bi-envelope"></i>
+            <span>@projectInfo.Value.Email</span>
+        </p>
+
+        <p onclick="openPhone('@projectInfo.Value.Whatsapp')">
+            <i class="bi bi-telephone"></i>
+            <span>@projectInfo.Value.Whatsapp</span>
+        </p>
+    </div>
+
+    <div class="linksDiv">
+        <h2>Links</h2>
+        <a href="/">Startseite</a>
+        <a href="/cars">Fahrzeuge</a>
+        <a href="/contact">Kontakt</a>
+        <a href="/privacypolicy">Datenschutz</a>
+    </div>
+
+    <div class="mapDiv">
+        <h2>Standort</h2>
+
+        <a href="https://www.google.com/maps?q=@projectInfo.Value.Latitude,@projectInfo.Value.Longitude"
+           target="_blank"
+           title="In Google Maps öffnen">
+            <iframe class="iframe"
+                    src="https://www.google.com/maps?q=@projectInfo.Value.Latitude,@projectInfo.Value.Longitude&output=embed"
+                    style="border:0; border-radius:8px;"
+                    loading="lazy">
+            </iframe>
+        </a>
+    </div>
+</footer>

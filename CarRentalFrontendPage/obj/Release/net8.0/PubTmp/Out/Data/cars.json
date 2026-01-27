@@ -1,0 +1,131 @@
+[
+  {
+    "id": 1,
+    "name": "VW Golf 8 R Performance",
+    "brand": "Volkswagen",
+    "model": "Golf 8 Performance",
+    "type": "Kompaktwagen",
+    "color": "Weiß",
+    "manufactureYear": 2023,
+    "engineType": "2,0 l 4-Zylinder",
+    "enginePower": "330 PS",
+    "maxSpeed": 270,
+    "transmissionType": "Automatik",
+    "fuelType": "Benzin",
+    "driveType": "7-Gang-DSG",
+    "IsActive": true,
+    "description": "Der VW Golf 8 R Performance mit Akrapovic begeistert mit einer Kombination aus beeindruckender Leistung und präziser Fahrdynamik. Angetrieben von einem 2,0-Liter-TSI-Motor, liefert dieser Kompaktsportler satte 333 PS, die dank des 7-Gang-Doppelkupplungsgetriebes blitzschnell auf alle vier Räder übertragen werden. In nur 4,6 Sekunden katapultierst du dich von 0 auf 100 km/h und erlebst dabei die pure Kraft des Allradantriebs 4MOTION.\n Das Highlight: die Akrapovic-Sportabgasanlage. Sie verleiht dem Golf R nicht nur einen einzigartigen Sound, sondern reduziert auch das Gewicht und verbessert die Performance weiter.\n Im Innenraum erwartet dich eine Kombination aus sportlicher Eleganz und modernster Technik. Die Sportsitze mit R-Logo, das voll digitale Cockpit und die Ambientebeleuchtung schaffen eine Umgebung, in der du dich auf jedes Detail deiner Fahrt konzentrieren kannst. Hochwertige Materialien wie Leder und Alcantara sorgen dabei für maximalen Komfort.\n Erlebe den VW Golf 8 R Performance mit Akrapovic in unserer OZ Sportwagenvermietung. Kontaktiere uns gerne für weitere Informationen oder eine unverbindliche Probefahrt. Die Verfügbarkeit kann je nach Nachfrage variieren.",
+    "images": [
+      {
+        "id": 1,
+        "imageUrl": "CarImages/1/Front.webp",
+        "isMain": true,
+        "imageType": "front",
+        "carId": 1
+      },
+      {
+        "id": 2,
+        "imageUrl": "CarImages/1/Back.webp",
+        "isMain": false,
+        "imageType": "back",
+        "carId": 1
+      },
+      {
+        "id": 3,
+        "imageUrl": "CarImages/1/Back-1.webp",
+        "isMain": false,
+        "imageType": "back",
+        "carId": 1
+      },
+      {
+        "id": 4,
+        "imageUrl": "CarImages/1/Side.webp",
+        "isMain": false,
+        "imageType": "side",
+        "carId": 1
+      },
+      {
+        "id": 5,
+        "imageUrl": "CarImages/1/Side-1.webp",
+        "isMain": false,
+        "imageType": "side",
+        "carId": 1
+      },
+      {
+        "id": 6,
+        "imageUrl": "CarImages/1/Interior.webp",
+        "isMain": false,
+        "imageType": "interior",
+        "carId": 1
+      },
+      {
+        "id": 7,
+        "imageUrl": "CarImages/1/Interior-1.webp",
+        "isMain": false,
+        "imageType": "interior",
+        "carId": 1
+      },
+      {
+        "id": 8,
+        "imageUrl": "CarImages/1/Seats.webp",
+        "isMain": false,
+        "imageType": "seats",
+        "carId": 1
+      },
+      {
+        "id": 9,
+        "imageUrl": "CarImages/1/Another.webp",
+        "isMain": false,
+        "imageType": "another",
+        "carId": 1
+      }
+    ],
+    "rentalPrices": [
+      {
+        "id": 1,
+        "title": "Tagesmiete",
+        "promoText": "Wochentagsersparnis",
+        "description": "Unter der Woche: Mo. - Do.",
+        "price": 169,
+        "unit": "pro Tag",
+        "maxKm": 200,
+        "type": "weekday",
+        "carId": 2
+      },
+      {
+        "id": 2,
+        "title": "Tagesmiete",
+        "promoText": "Wochenendabenteuer",
+        "description": "Am Wochenende: Fr. - So.",
+        "price": 179,
+        "unit": "pro Tag",
+        "maxKm": 250,
+        "type": "weekend_day",
+        "carId": 2
+      },
+      {
+        "id": 3,
+        "title": "Wochenende",
+        "promoText": " Unschlagbarer Preis",
+        "description": "Wochenende: Fr. - So.",
+        "price": 350,
+        "unit": "Sparpaket",
+        "maxKm": 500,
+        "type": "weekend",
+        "carId": 2
+      },
+      {
+        "id": 4,
+        "title": "Ganze Woche",
+        "promoText": "Ganze Woche für Dich",
+        "description": "7 Tage",
+        "price": 890,
+        "unit": "Ganze Woche",
+        "maxKm": 1150,
+        "type": "weekly",
+        "carId": 2
+      }
+    ]
+  }
+]
+

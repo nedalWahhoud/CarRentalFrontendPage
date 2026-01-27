@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - CarRentalFrontendPage</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="~/css/CarCard.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Footer.css" asp-append-version="true" />
+    <link rel="stylesheet" href="/css/Header.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/HeroCar.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/ProjektLogo.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Question.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/RentalConditions.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/TextCard.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/CarPage.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Cars.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/ContactPage.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Index.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/PrivacyPolicy.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CarRentalFrontendPage.styles.css" asp-append-version="true" />
+</head>
+<body>
+
+    <div class="page">
+         @await Html.PartialAsync("Layout/Header", new CarRentalFrontendPage.Pages.Layout.HeaderModel(carService))
+        <main>
+          <article class="content px-4">
+            @RenderBody()
+          </article>
+        </main>
+
+        @await Html.PartialAsync("Layout/Footer")
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿@model CarRentalFrontendPage.Pages.Layout.HeroModel
+
+<div class="heroContainer">
+    <div class="heroOverlay"></div>
+
+    <img src="@($"{Model.ImageUrl}?v={Model.LastModified}")"
+         class="heroBannerImg"
+         alt="Hero Banner" />
+
+    <div class="heroContent">
+        <h1>@Model.Title</h1>
+
+        @if (Model.HeroCarSubtitle != null)
+        {
+            <div class="subTitleCar">
+                <h5>@Model.HeroCarSubtitle.Subtitle</h5>
+                <span class="dot"></span>
+                <h5>@Model.HeroCarSubtitle.Subtitle1</h5>
+            </div>
+        }
+        else if (Model.HeroMainSubtitle != null)
+        {
+            <div class="subTitleMain">
+                <h5>@Model.HeroMainSubtitle.Subtitle</h5>
+                <a asp-page="/Cars"
+                   class="btn rentalB">
+                    @Model.HeroMainSubtitle.ButtonText
+                </a>
+            </div>
+        }
+    </div>
+</div>

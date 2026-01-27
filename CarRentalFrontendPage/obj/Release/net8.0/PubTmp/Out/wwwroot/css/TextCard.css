@@ -1,0 +1,35 @@
+﻿.textCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--mainHover);
+    padding: 20px;
+    border-radius: 15px;
+    color: var(--mainColor);
+}
+
+    .textCard i {
+        color: var(--mainColor);
+    }
+
+.cardB {
+    color: var(--mainHeaderColor);
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 30px;
+}
+
+    .cardB:hover {
+        color: var(--mainColor);
+        transform: scale(1.05);
+    }
+
+@media (max-width: 768px) {
+    .textCard {
+        width: 100%;
+    }
+}

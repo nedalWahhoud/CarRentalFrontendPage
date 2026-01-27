@@ -1,0 +1,134 @@
+﻿.footer {
+    background-color: var(--mainHeaderColor);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+}
+
+    .footer > div {
+        flex: 1;
+    }
+
+html[dir="rtl"] .footer {
+    direction: ltr;
+    text-align: left;
+}
+
+.logoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    text-align: left;
+    padding: 10px;
+}
+
+.contactDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    text-align: left;
+    padding: 10px;
+}
+
+    .contactDiv h2 {
+        font-weight: bold;
+        color:var(--mainColor);
+    }
+
+    .contactDiv p {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-size: 22px;
+        color: var(--mainHover);
+        cursor: pointer;
+    }
+
+        .contactDiv p span {
+            color: var(--mainColor);
+            cursor: pointer;
+        }
+
+            .contactDiv p span:hover {
+                color: var(--mainHover);
+            }
+
+.linksDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 10px;
+    gap: 10px;
+}
+
+    .linksDiv h2 {
+        font-weight: bold;
+        color: var(--mainColor);
+    }
+
+    .linksDiv a {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-size: 22px;
+        color: var(--mainColor);
+        text-decoration: none;
+    }
+
+        .linksDiv a:hover {
+            color: var(--mainHover);
+        }
+
+.mapDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 10px;
+    gap: 10px;
+    width: 100%;
+}
+
+    .mapDiv h2 {
+        font-weight: bold;
+        color: var(--mainColor);
+    }
+
+    .mapDiv a {
+        width: 100%;
+    }
+
+.iframe {
+    width: 100%;
+    height: 180px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+    }
+
+    .contactDiv,
+    .linksDiv,
+    .mapDiv {
+        align-items: flex-start !important;
+    }
+
+        .contactDiv p,
+        .linksDiv a {
+            font-size: 16px;
+        }
+
+    .mapDiv {
+        width: 100%;
+    }
+}

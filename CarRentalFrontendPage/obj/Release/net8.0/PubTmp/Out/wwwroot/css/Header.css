@@ -1,0 +1,207 @@
+﻿.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: var(--mainHeaderColor);
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .header .containerLeft,
+    .header .containerCenter,
+    .header .containerRight {
+        flex: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    .header .containerLeft {
+        padding-left: 2rem;
+        justify-content: center;
+    }
+
+    .header .containerCenter {
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .header .containerRight {
+        justify-content: center;
+        gap: 1rem;
+    }
+/* dropdown */
+.dropdownCar,
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+    .dropdown:hover .menuToggle {
+        color: var(--mainHover);
+    }
+
+    .dropdown:hover .dropdownMenu {
+        display: flex;
+    }
+
+.menuToggle {
+    background-color: var(--mainHeaderColor);
+    color: var(--mainColor);
+    border: none;
+    padding: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+    .menuToggle::after {
+        content: " Menu";
+    }
+
+.dropdownMenuCar, .dropdownMenu {
+    display: none;
+    position: absolute;
+    background: white;
+    z-index: 100;
+    gap: 10px;
+    padding: 10px;
+    text-align: start;
+    border: none;
+    right: 0;
+    top: 100%;
+    background-color: var(--mainHeaderColor);
+}
+
+.columnCar,
+.column {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: var(--mainColor);
+}
+
+    .columnCar li,
+    .column li {
+        padding: 8px 10px;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+        .columnCar li:hover,
+        .column li:hover {
+            color: var(--mainHover);
+        }
+
+.dropdownCar {
+    position: relative;
+    display: inline-block;
+}
+
+    .dropdownCar:hover .dropdownButtonCar {
+        color: var(--mainHover);
+    }
+
+    .dropdownCar:hover .dropdownMenuCar {
+        display: flex;
+    }
+
+.dropdownButtonCar {
+    background-color: var(--mainHeaderColor);
+    color: var(--mainColor);
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/*  */
+.booking {
+    background-color: var(--mainColor);
+    color: var(--mainHeaderColor);
+    padding: 18px 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+    .booking:hover {
+        background-color: var(--mainHover);
+        color: var(--mainColor);
+    }
+
+.startA,
+.contactA {
+    color: var(--mainColor);
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .startA:hover,
+    .contactA:hover {
+        color: var(--mainHover);
+    }
+
+.selected {
+    color: var(--mainHover);
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: auto !important;
+        padding: 0.5rem;
+    }
+
+        .header .containerLeft,
+        .header .containerCenter,
+        .header .containerRight {
+            flex: none !important;
+            display: flex !important;
+            align-items: center !important;
+        }
+
+    .menuToggle {
+        font-size: 30px;
+    }
+
+        .menuToggle::after {
+            content: "";
+        }
+
+    .startA,
+    .contactA,
+    .dropdownButton {
+        font-size: 18px;
+    }
+
+    .booking {
+        padding: 4px !important;
+        font-size: 14px !important;
+    }
+
+    .containerRight {
+        justify-content: flex-end;
+    }
+
+    .dropdownMenu {
+        position: absolute;
+        display: none;
+        z-index: 10000;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+}

@@ -1,0 +1,112 @@
+﻿.questionsContainer {
+    display: flex;
+    padding: 50px 10px;
+    margin: 100px;
+}
+
+.questionsContainer1 {
+    position: relative;
+    width: 100%;
+    max-width: 1600px;
+    background-color: var(--mainHeaderColor);
+    border-radius: 20px;
+    padding: 80px;
+}
+
+.questionsLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+    color: var(--mainColor);
+    width: 50%;
+}
+
+.questionsImg {
+    position: absolute;
+    right: 120px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 160%;
+    z-index: 1;
+    pointer-events: none;
+    border-radius: 50px;
+}
+
+.questionsButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+.whatsappB {
+    background-color: var(--mainHeaderColor);
+    color: var(--mainColor);
+    padding: 20px 35px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    border-color: #ffffff;
+}
+
+    .whatsappB:hover {
+        background-color: var(--mainColor);
+        color: var(--mainHeaderColor);
+    }
+
+.telefonB {
+    background-color: var(--mainColor);
+    color: var(--mainHeaderColor);
+    padding: 20px 35px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+    .telefonB:hover {
+        background-color: var(--mainHover);
+        color: var(--mainColor);
+        border-color: var(--mainColor);
+    }
+
+@media (max-width: 768px) {
+
+    .questionsContainer {
+        margin: 30px 10px;
+        padding: 10px;
+    }
+
+    .questionsContainer1 {
+        padding: 40px 20px;
+    }
+
+    .questionsLeft {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .questionsButtons {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+        .questionsButtons button {
+            width: 80%;
+        }
+
+    .questionsImg {
+        position: relative;
+        right: 0;
+        top: 0;
+        transform: none;
+        height: auto;
+        width: 80%;
+        margin: 20px auto 0;
+        display: block;
+    }
+}

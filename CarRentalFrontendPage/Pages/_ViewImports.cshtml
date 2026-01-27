@@ -1,0 +1,11 @@
+﻿@namespace CarRentalFrontendPage.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using CarRentalFrontendPage
+@using CarRentalFrontendPage.Models
+@using CarRentalFrontendPage.CarF
+@using CarRentalFrontendPage.ContactF
+@using Microsoft.Extensions.Options
+
+@inject IOptions<ProjectInfo> projectInfo
+@inject CarService carService
+@inject ContactService contactService

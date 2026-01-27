@@ -1,0 +1,26 @@
+﻿<div class="questionsContainer">
+    <div class="questionsContainer1">
+        <div class="questionsLeft">
+            <h3>HAST DU FRAGEN?</h3>
+            <h1>Wir helfen dir gerne weiter!</h1>
+
+            <div class="questionsButtons">
+                <!-- Telefon -->
+                <button class="bi bi-telephone-fill btn telefonB"
+                        onclick="openPhone('@projectInfo.Value.Whatsapp')">
+                    @projectInfo.Value.Whatsapp
+                </button>
+
+                <!-- WhatsApp -->
+                <button class="bi bi-whatsapp display-6 btn whatsappB"
+                        onclick="openWhatsApp('Hey, Ich möchte ein Fahrzeug mieten. Bitte senden Sie mir weitere Informationen.')">
+                    WHATSAPP
+                </button>
+            </div>
+        </div>
+
+        <img src="/CarImages/Question.webp"
+             class="questionsImg"
+             alt="Contact Image">
+    </div>
+</div>

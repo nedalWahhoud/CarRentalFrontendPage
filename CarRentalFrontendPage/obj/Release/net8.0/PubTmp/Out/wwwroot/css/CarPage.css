@@ -1,0 +1,469 @@
+﻿.carPageContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+/* left */
+.leftSectionCarPage {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 50px;
+}
+
+.picturesContainer {
+    border: 1px solid var(--mainHeaderColor);
+    padding: 40px;
+    border-radius: 30px;
+}
+
+    .picturesContainer h2 {
+        color: var(--mainHeaderColor);
+    }
+
+.picturesGridCarPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.carThumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid var(--mainHeaderColor);
+}
+
+.questionCarPage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border: 1px solid var(--mainHeaderColor);
+    padding: 80px;
+    border-radius: 30px;
+}
+
+.questionCarPage h2 {
+    color: var(--mainHeaderColor);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.toBooking {
+    background-color: var(--mainHeaderColor);
+    color: var(--mainColor);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+    .toBooking:hover {
+        background-color: var(--mainHover);
+    }
+
+.toContact {
+    background-color: var(--mainColor);
+    color: var(--mainHeaderColor);
+    border: 1px solid var(--mainHover);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+    .toContact:hover {
+        background-color: var(--mainHover);
+        color: var(--mainColor);
+    }
+
+.individualContainer {
+    position: relative;
+    padding: 40px;
+    background-position: center;
+    background-size: cover;
+}
+
+    .individualContainer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.8);
+        z-index: 1;
+    }
+
+.individualCarPage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid var(--mainHeaderColor);
+    padding: 90px;
+    border-radius: 30px;
+    z-index: 2;
+}
+
+    .individualCarPage h2 {
+        color: var(--mainHeaderColor);
+        width: 100%;
+        text-align: center;
+    }
+
+    .individualCarPage p {
+        color: var(--mainColor);
+    }
+
+    .individualCarPage button {
+        color: var(--mainColor);
+        background-color: var(--mainHeaderColor);
+        padding: 20px 40px;
+    }
+
+        .individualCarPage button:hover {
+            background-color: var(--mainHover);
+        }
+/* open image */
+.imageModalCarPage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    cursor: zoom-out;
+    display: none;
+}
+
+.modalImage {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.8);
+    animation: zoomIn .25s ease;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+/* right */
+.rightSectionCarPage {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carOverview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.carImageCarPage {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.carNameCarPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 90%;
+    color: var(--mainHeaderColor);
+    /* line */
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--mainHover);
+}
+
+.carText {
+    display: flex;
+    flex-direction: column;
+}
+
+.carNameCarPage > h2:last-child {
+    color: var(--mainHover);
+}
+
+    .carNameCarPage > h2:last-child span {
+        font-size: 28px;
+        color: var(--descriptionTexts);
+    }
+
+.carDetails {
+    margin-top: 30px;
+    color: var(--mainHeaderColor);
+    width: 90%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--mainHover);
+}
+
+.detailsGridCarPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 20px;
+}
+
+.detailItemCarPage {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+    font-size: 20px;
+    gap: 80px;
+}
+
+.detailTitleCarPage {
+    color: var(--descriptionTexts);
+    font-weight: 600;
+    width: 70px;
+}
+
+.detailValueCarPage {
+    font-weight: 600;
+    color: var(--mainHeaderColor);
+}
+
+.descriptionCarPage {
+    width: 90%;
+    text-align: start;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--mainHover);
+}
+
+    .descriptionCarPage h2 {
+        color: var(--mainHeaderColor);
+        margin-bottom: 30px;
+    }
+
+.descriptionTwoColumnsCarPage {
+    display: flex;
+    width: 90%;
+}
+
+    .descriptionTwoColumnsCarPage .leftColumnCarPage,
+    .descriptionTwoColumnsCarPage .rightColumnCarPage {
+        flex: 1;
+        font-size: 20px;
+        margin: 0;
+        line-height: 1.6;
+        word-break: break-word;
+        color: var(--descriptionTexts);
+        text-align: left;
+    }
+
+.price {
+    width: 90%;
+}
+
+    .price h2 {
+        color: var(--mainHeaderColor);
+    }
+
+.priceCardContainerCarPage {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.priceCardCarPage {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--mainHover);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.priceCardHeaderCarPage {
+    display: flex;
+    flex-direction: column;
+    background: var(--mainHeaderColor);
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+    .priceCardHeaderCarPage h1 {
+        color: var(--mainColor);
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .priceCardHeaderCarPage p {
+        color: var(--mainColor);
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+.priceCardBottomCarPage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    gap: 0;
+}
+
+    .priceCardBottomCarPage p:nth-of-type(1) {
+        color: var(--descriptionTexts);
+        font-size: 20px;
+    }
+
+    .priceCardBottomCarPage p:nth-of-type(2) {
+        color: var(--descriptionTexts);
+        font-size: 25px;
+        padding-bottom: 20px;
+        border-bottom: 10px solid var(--mainHeaderColor);
+    }
+
+    .priceCardBottomCarPage p:nth-of-type(3) {
+        color: var(--descriptionTexts);
+        font-size: 25px;
+    }
+
+    .priceCardBottomCarPage > h1:first-child {
+        color: var(--mainHeaderColor);
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .priceCardBottomCarPage p {
+        color: var(--mainHeaderColor);
+        font-size: 30px;
+    }
+
+.rentButtonCarPage {
+    color: var(--mainColor);
+    background-color: var(--mainHeaderColor);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+    .rentButtonCarPage:hover {
+        background-color: var(--mainHover);
+    }
+
+.priceCardBottomCarPage > p:last-child {
+    color: var(--descriptionTexts);
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.conditionsCarPage {
+    width: 90%;
+}
+
+@media (max-width: 768px) {
+
+    .carPageContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .rightSectionCarPage {
+        order: -1;
+    }
+
+    .leftSectionCarPage {
+        order: 1;
+    }
+
+    .leftSectionCarPage,
+    .rightSectionCarPage {
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .carImageCarPage {
+        width: 100%;
+    }
+
+    .carNameCarPage {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+        .carNameCarPage h2 {
+            font-size: 24px;
+        }
+
+            .carNameCarPage h2:last-child span {
+                font-size: 20px;
+            }
+
+    .carDetails {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .detailsGridCarPage {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .detailItemCarPage {
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 16px;
+    }
+
+    .descriptionCarPage,
+    .descriptionTwoColumnsCarPage,
+    .price,
+    .conditionsCarPage {
+        width: 100%;
+    }
+
+    .descriptionTwoColumnsCarPage {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .priceCardContainerCarPage {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .priceCardHeaderCarPage h1 {
+        font-size: 26px;
+    }
+
+    .priceCardHeaderCarPage p {
+        font-size: 18px;
+    }
+
+    .priceCardBottomCarPage h1 {
+        font-size: 38px;
+    }
+
+    .priceCardBottomCarPage p {
+        font-size: 18px !important;
+    }
+}

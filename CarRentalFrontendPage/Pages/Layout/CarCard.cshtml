@@ -1,0 +1,45 @@
+﻿@model CarRentalFrontendPage.Models.Car
+
+
+@{
+  var mainImage = Model.Images?.FirstOrDefault(i => i.IsMain);
+
+  var imageUrl = mainImage?.ImageUrl ?? "/CarImages/DPImage.png";
+  var lastModified = mainImage?.LastModified ?? DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ");
+
+  var finalImageUrl = $"{imageUrl}?v={lastModified}";
+}
+
+<div class="card"
+     onclick="location.href='/car/@Model.Id'">
+        <img src="@finalImageUrl" class="cardImg" alt="@Model.Name" />
+
+        <div class="cardOverlay">
+            <div class="divTop">
+                <p>@Model.Type</p>
+                <h5>@Model.Brand</h5>
+                <h5>@Model.Model</h5>
+            </div>
+
+            <div class="divBottom">
+                <div class="divLeft">
+                    <button class="btn priceB"
+                            onclick="event.stopPropagation(); location.href='@Url.Action("Details", "Car", new { id = Model.Id })'">
+                        <strong>Ab @Model.RentalPrices?.FirstOrDefault()?.Price €</strong>
+                    </button>
+
+                    <p>
+                        Leistung<br />
+                        <strong>@Model.EnginePower</strong>
+                    </p>
+                </div>
+
+                <div class="divRight">
+                    <p>
+                        Getribe<br />
+                        <strong>@Model.TransmissionType</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,7 @@
+﻿.carContainerCars {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    margin-bottom: 50px;
+}

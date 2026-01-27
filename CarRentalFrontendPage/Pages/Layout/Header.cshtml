@@ -1,0 +1,60 @@
+﻿@model CarRentalFrontendPage.Pages.Layout.HeaderModel
+
+@{
+    List<Car> Cars = await carService.GetAllCarsAsync();
+}
+
+<header class="header ltr-section">
+    <div class="containerLeft">
+        @await Html.PartialAsync("Layout/ProjektLogo")
+    </div>
+
+    <div class="containerCenter">
+        <button class="btn booking" onclick="openBooking('@Model.CurrentCarName')">
+            <i class="bi bi-whatsapp"></i> FAHRZEUG BUCHEN
+        </button>
+    </div>
+
+    <div class="containerRight">
+        <div class="dropdown">
+            <button class="menuToggle">☰</button>
+
+            <div class="dropdownMenu">
+                <ul class="column">
+                    <li>
+                        <a href="/" class="startA @(Model.IsSelected("") ? "selected" : "")">Start</a>
+                    </li>
+                    @if (Cars != null && Cars.Count > 0)
+                    {
+                        <li class="dropdownCar"
+                            onmouseenter="openCarMenu()"
+                            onmouseleave="closeCarMenu()">
+
+                            <button class="dropdownButtonCar @(Model.IsCarPage ? "selected" : "")">
+                                Cars ▼
+                            </button>
+
+                            <div id="carMenu" class="dropdownMenuCar">
+                                <ul class="columnCar">
+                                    @foreach (var item in Cars)
+                                    {
+                                        <li class="@(Model.IsSelected($"car/{item.Id}") ? "selected" : "")"
+                                            onclick="goToCar(@item.Id)">
+                                            @item.Name
+                                        </li>
+                                    }
+                                </ul>
+                            </div>
+                        </li>
+                    }
+
+                    <li>
+                        <a href="/contact" class="contactA @(Model.IsSelected("contact") ? "selected" : "")">
+                            Kontakt
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,23 @@
+﻿@model CarRentalFrontendPage.Pages.Layout.TextCardPageModel
+
+<div class="textCard" style="width:@Model.Cardstyle.Width; height:@Model.Cardstyle.Height;">
+    <i class="@Model.Icon"></i>
+    <h4>@Model.Title</h4>
+    <p>@Model.Description</p>
+
+    @if (Model.Cardbutton != null)
+    {
+        if (Model.Cardbutton.ActionType == CarRentalFrontendPage.Pages.Layout.TextCardPageModel.ButtonActionType.Navigate)
+        {
+            <button class="btn cardB" onclick="window.location.href='@Model.Cardbutton.UriOrValue'">
+                @Model.Cardbutton.Text
+            </button>
+        }
+        else if (Model.Cardbutton.ActionType == CarRentalFrontendPage.Pages.Layout.TextCardPageModel.ButtonActionType.WhatsApp)
+        {
+            <button class="btn cardB" onclick="openWhatsApp('@Model.Cardbutton.UriOrValue')">
+                @Model.Cardbutton.Text
+            </button>
+        }
+    }
+</div>

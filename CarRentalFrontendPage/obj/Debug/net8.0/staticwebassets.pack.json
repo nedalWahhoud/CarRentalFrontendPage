@@ -1,0 +1,369 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CarRentalFrontendPage.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CarRentalFrontendPage.5bs3bk79c7.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\1\\Another.webp",
+      "PackagePath": "staticwebassets\\CarImages\\1\\Another.webp"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\1\\Back-1.webp",
+      "PackagePath": "staticwebassets\\CarImages\\1\\Back-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\1\\Back.webp",
+      "PackagePath": "staticwebassets\\CarImages\\1\\Back.webp"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\1\\Front.webp",
+      "PackagePath": "staticwebassets\\CarImages\\1\\Front.webp"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\1\\Interior-1.webp",
+      "PackagePath": "staticwebassets\\CarImages\\1\\Interior-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\1\\Interior.webp",
+      "PackagePath": "staticwebassets\\CarImages\\1\\Interior.webp"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\1\\Seats.webp",
+      "PackagePath": "staticwebassets\\CarImages\\1\\Seats.webp"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\1\\Side-1.webp",
+      "PackagePath": "staticwebassets\\CarImages\\1\\Side-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\1\\Side.webp",
+      "PackagePath": "staticwebassets\\CarImages\\1\\Side.webp"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\DPImage.png",
+      "PackagePath": "staticwebassets\\CarImages\\DPImage.png"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\HeroBanner.webp",
+      "PackagePath": "staticwebassets\\CarImages\\HeroBanner.webp"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\Question.webp",
+      "PackagePath": "staticwebassets\\CarImages\\Question.webp"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\CarCard.css",
+      "PackagePath": "staticwebassets\\css\\CarCard.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\CarPage.css",
+      "PackagePath": "staticwebassets\\css\\CarPage.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\Cars.css",
+      "PackagePath": "staticwebassets\\css\\Cars.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\ContactPage.css",
+      "PackagePath": "staticwebassets\\css\\ContactPage.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\Footer.css",
+      "PackagePath": "staticwebassets\\css\\Footer.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\Header.css",
+      "PackagePath": "staticwebassets\\css\\Header.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\HeroCar.css",
+      "PackagePath": "staticwebassets\\css\\HeroCar.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\PrivacyPolicy.css",
+      "PackagePath": "staticwebassets\\css\\PrivacyPolicy.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\ProjektLogo.css",
+      "PackagePath": "staticwebassets\\css\\ProjektLogo.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\Question.css",
+      "PackagePath": "staticwebassets\\css\\Question.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\RentalConditions.css",
+      "PackagePath": "staticwebassets\\css\\RentalConditions.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\TextCard.css",
+      "PackagePath": "staticwebassets\\css\\TextCard.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CarRentalFrontendPage.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CarRentalFrontendPage.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CarRentalFrontendPage.props",
+      "PackagePath": "build\\CarRentalFrontendPage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CarRentalFrontendPage.props",
+      "PackagePath": "buildMultiTargeting\\CarRentalFrontendPage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CarRentalFrontendPage.props",
+      "PackagePath": "buildTransitive\\CarRentalFrontendPage.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

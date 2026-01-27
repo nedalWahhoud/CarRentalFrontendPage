@@ -1,0 +1,34 @@
+﻿@page "/cars"
+@model CarRentalFrontendPage.Pages.CarsModel
+
+@{
+
+}
+
+<!-- HERO -->
+@await Html.PartialAsync("Layout/HeroCar", new CarRentalFrontendPage.Pages.Layout.HeroModel
+{
+    ImageUrl = "/CarImages/HeroBanner.webp",
+    LastModified = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ"),
+    Title = "Unsere Fahrzeuge",
+    HeroCarSubtitle = new CarRentalFrontendPage.Pages.Layout.HeroCarSubtitle
+    {
+        Subtitle = "Sportlich.",
+        Subtitle1 = "Exklusiv."
+    }
+})
+
+<!-- CAR LIST -->
+<div class="carContainerCars">
+    @if (Model.GetItems?.Items != null && Model.GetItems.Items.Count > 0)
+    {
+        @for (int i = 0; i < Model.GetItems.Items.Count; i++)
+        {
+            @await Html.PartialAsync("Layout/CarCard", Model.GetItems.Items[i])
+        }
+    }
+    else
+    {
+        <p>Keine Fahrzeuge gefunden.</p>
+    }
+</div>

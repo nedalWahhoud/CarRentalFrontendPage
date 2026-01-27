@@ -1,0 +1,113 @@
+﻿@page
+@model CarRentalFrontendPage.Pages.IndexModel
+@using CarRentalFrontendPage.Models
+@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Hero Section -->
+@await Html.PartialAsync("Layout/HeroCar", new CarRentalFrontendPage.Pages.Layout.HeroModel
+{
+    ImageUrl = "/CarImages/HeroBanner.webp",
+    LastModified = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ"),
+    Title = "Willkommen bei Sportwagen Vermietung",
+    HeroMainSubtitle = new CarRentalFrontendPage.Pages.Layout.HeroMainSubtitle
+    {
+        Subtitle = "Erlebe pure Performance – jetzt mieten!",
+        ButtonText = "Mieten"
+    }
+})
+
+<!-- Services Section -->
+<div class="advantagesContainer">
+    <h3 class="mb-3 text-center">Unsere Vorteile</h3>
+    <div class="cardContainer">
+        @await Html.PartialAsync("Layout/TextCard", new CarRentalFrontendPage.Pages.Layout.TextCardPageModel
+   {
+       Icon = "bi bi-clock display-3 mb-2",
+       Title = "Flexibel Mieten",
+       Description = "Tagweise, Wochenendeweise oder ganze Woche",
+       Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "300px", Height = "240px" }
+   })
+        @await Html.PartialAsync("Layout/TextCard", new CarRentalFrontendPage.Pages.Layout.TextCardPageModel
+   {
+       Icon = "bi bi-whatsapp display-3 mb-2",
+       Title = "Unkompliziert",
+       Description = "Die Buchung erfolgt ganz bequem über WhatsApp!",
+       Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "300px", Height = "240px" }
+   })
+        @await Html.PartialAsync("Layout/TextCard", new CarRentalFrontendPage.Pages.Layout.TextCardPageModel
+   {
+       Icon = "bi bi-currency-euro display-3 mb-2",
+       Title = "Faire Preise",
+       Description = "Unsere Preise sind so fair wie möglich kalkuliert!",
+       Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "300px", Height = "240px" }
+   })
+    </div>
+</div>
+
+<!-- Random Cars -->
+<div class="carContainer">
+    <div class="carText">
+        <h3>Unsere Kollektion</h3>
+        <h1>Entdecke unsere exklusiven Sportwagen zum Bestpreis</h1>
+    </div>
+    @foreach (var car in Model.RandomCars)
+    {
+        @await Html.PartialAsync("Layout/CarCard", car)
+    }
+</div>
+
+<!-- This is how it works -->
+<div class="thisWorks">
+    <h3 class="mb-3 text-center">SO FUNKTIONIERT’S</h3>
+    <h1>In 3 einfachen Schritten zum Sportwagen</h1>
+    <div class="cardContainer">
+        @* Schritt 1 *@
+        @await Html.PartialAsync("Layout/TextCard", new CarRentalFrontendPage.Pages.Layout.TextCardPageModel
+   {
+       Icon = "bi bi-car-front display-3 mb-2",
+       Title = "Wähle ein Fahrzeug",
+       Description = "Dir stehen verschiedenste Fahrzeuge zur Auswahl!",
+       Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "400px", Height = "400px" },
+       Cardbutton = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardButton
+       {
+           Text = "FAHRZEUGE >",
+           UriOrValue = "cars",
+           ActionType = CarRentalFrontendPage.Pages.Layout.TextCardPageModel.ButtonActionType.Navigate
+       }
+   })
+        @* Schritt 2 *@
+        @await Html.PartialAsync("Layout/TextCard", new CarRentalFrontendPage.Pages.Layout.TextCardPageModel
+   {
+       Icon = "bi bi-calendar display-3 mb-2",
+       Title = "Terminauswahl",
+       Description = "Frage deinen Wunschtermin bequem über WhatsApp an!",
+       Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "400px", Height = "400px" },
+       Cardbutton = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardButton
+       {
+           Text = "VIA WHATSAPP >",
+           UriOrValue = "Hey, ich habe eine Frage zu einem möglichen Mietwagen-Termin.",
+           ActionType = CarRentalFrontendPage.Pages.Layout.TextCardPageModel.ButtonActionType.WhatsApp
+       }
+   })
+        @* Schritt 3 *@
+        @await Html.PartialAsync("Layout/TextCard", new CarRentalFrontendPage.Pages.Layout.TextCardPageModel
+   {
+       Icon = "bi bi-speedometer2 display-3 mb-2",
+       Title = "Genieß Deine Fahrt",
+       Description = "Verlief alles wie geplant? Wir freuen uns auf deine Bewertung!",
+       Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "400px", Height = "400px" },
+       Cardbutton = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardButton
+       {
+           Text = "BEWERTE UNS >",
+           UriOrValue = "cars",
+           ActionType = CarRentalFrontendPage.Pages.Layout.TextCardPageModel.ButtonActionType.Navigate
+       }
+   })
+    </div>
+</div>
+
+<!-- Questions Section -->
+@await Html.PartialAsync("Layout/Question")
+

@@ -1,0 +1,160 @@
+﻿@page "/car/{id:int}"
+@model CarRentalFrontendPage.Pages.CarPageModel
+
+@{
+    var car = Model.Car;
+    var mainImage = car.Images?.FirstOrDefault(i => i.IsMain);
+    var imageUrl = mainImage?.ImageUrl ?? "/CarImages/HeroBanner.webp";
+    var lastModified = mainImage?.LastModified ?? DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ");
+
+
+    var nonMainImages = car.Images?.Where(s => !s.IsMain).ToList() ?? new();
+    var rng = new Random();
+
+    string randomImageUrl = nonMainImages.Count > 0
+            ? nonMainImages[rng.Next(nonMainImages.Count)].ImageUrl
+            : "/CarImages/HeroBanner.webp";
+}
+
+<!-- HERO -->
+<div class="heroContainer">
+    <img src="@($"/{imageUrl}?v={lastModified}")" class="heroBannerImg" alt="@car.Name" />
+    <div class="heroContent">
+        <h1>@car.Name</h1>
+        <div class="subTitleCar">
+            <h5>@car.EnginePower</h5>
+            <span class="dot"></span>
+            <h5>@car.Type</h5>
+        </div>
+    </div>
+</div>
+
+<div class="carPageContainer">
+
+    <!-- LEFT SECTION -->
+    <div class="leftSectionCarPage">
+
+        <h2>Weitere Bilder</h2>
+        <div class="picturesGridCarPage">
+            @foreach (var img in car.Images?.Where(i => !i.IsMain) ?? Enumerable.Empty<CarImage>())
+            {
+                <img src="/@img.ImageUrl"
+                     class="carThumbnail"
+                     onclick="showImage('/@img.ImageUrl')" />
+            }
+        </div>
+
+        <div class="questionCarPage">
+            <h2>Überzeugt?</h2>
+            <button class="btn toBooking" onclick="scrollToPrice()">AB ZUR BUCHUNG ></button>
+            <a href="/contact" class="btn toContact">NOCH FRAGEN? ></a>
+        </div>
+
+        <div class="individualContainer" style="background-image:url('/@randomImageUrl')">
+            <div class="individualCarPage">
+                <h2>Individuelles Angebot?</h2>
+                <p>Kein Problem!</p>
+                <button class="btn bi bi-whatsapp"
+                        onclick="openWhatsApp('Hey, Ich möchte ein individuelles Angebot.')">
+                    ANFRAGEN
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- RIGHT SECTION -->
+    <div class="rightSectionCarPage">
+
+        <img src="@($"/{imageUrl}?v={lastModified}")" class="carImageCarPage" alt="@car.Name" />
+
+        <div class="carNameCarPage">
+            <div class="carText">
+                <h2>@car.Brand @car.Type</h2>
+                <h2>@car.Model</h2>
+            </div>
+            <h2>Ab @((car.RentalPrices?.FirstOrDefault(r => r.Type == "weekday")?.Price ?? 0).ToString("C")) <span>/ Tag</span> </h2>
+        </div>
+
+        <!-- DETAILS -->
+        <div class="carDetails">
+            <h2>Fahrzeugdetails</h2>
+            <div class="detailsGridCarPage">
+                <div class="detailItemCarPage">
+                    <span class="detailTitleCarPage">Marke</span>
+                    <span class="detailValueCarPage">@car.Brand</span>
+                </div>
+                <div class="detailItemCarPage">
+                    <span class="detailTitleCarPage">Motor</span>
+                    <span class="detailValueCarPage">@car.EngineType</span>
+                </div>
+                <div class="detailItemCarPage">
+                    <span class="detailTitleCarPage">Modell</span>
+                    <span class="detailValueCarPage">@car.Model</span>
+                </div>
+                <div class="detailItemCarPage">
+                    <span class="detailTitleCarPage">Leistung</span>
+                    <span class="detailValueCarPage">@car.EnginePower</span>
+                </div>
+                <div class="detailItemCarPage">
+                    <span class="detailTitleCarPage">Farbe</span>
+                    <span class="detailValueCarPage">@car.Color</span>
+                </div>
+                <div class="detailItemCarPage">
+                    <span class="detailTitleCarPage">V-Max</span>
+                    <span class="detailValueCarPage">@car.MaxSpeed km/h</span>
+                </div>
+                <div class="detailItemCarPage">
+                    <span class="detailTitleCarPage">Baujahr</span>
+                    <span class="detailValueCarPage">@car.ManufactureYear</span>
+                </div>
+                <div class="detailItemCarPage">
+                    <span class="detailTitleCarPage">Getribe</span>
+                    <span class="detailValueCarPage">@car.DriveType</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- DESCRIPTION -->
+        <div class="descriptionCarPage">
+            <h2>Fahrzeugbeschreibung:</h2>
+          <div class="descriptionTwoColumnsCarPage">
+                <div class="leftColumnCarPage">@Html.Raw(Model.LeftDescription)</div>
+                <div class="rightColumnCarPage">@Html.Raw(Model.RightDescription)</div>
+          </div>
+        </div>
+
+        <!-- PRICES -->
+        <div id="priceSection">
+            <h2>Preise</h2>
+            <div class="priceCardContainerCarPage">
+            @foreach (var price in car.RentalPrices ?? Enumerable.Empty<CarRentalPrice>())
+            {
+                    <div class="priceCardCarPage">
+                        <div class="priceCardHeaderCarPage">
+                            <h1>@price.Title</h1>
+                            <p>@price.Description</p>
+                        </div>
+                        <div class="priceCardBottomCarPage">
+                            <h1>@price.Price.ToString("C")</h1>
+                            <p>@price.unit</p>
+                            <p>@price.PromoText</p>
+                            <p>inkl. @(price.MaxKm)km</p>
+                            <button onclick="onBook('@car.Name', '@price.Type')" class="btn rentButtonCarPage">JETZT BUCHEN</button>
+                            <p>Kostenlose Stornierung bis 24 Stunden vor Abholung</p>
+                        </div>
+                    </div>
+            }
+            </div>
+        </div>
+
+        <!-- CONDITIONS -->
+        <div class="conditionsCarPage">
+            @await Html.PartialAsync("Layout/RentalConditions", car)
+        </div>
+    </div>
+</div>
+
+<!-- IMAGE MODAL -->
+<div id="imageModal" class="imageModalCarPage" onclick="closeImage()">
+    <img id="modalImg" class="modalImage" alt="Car Image" />
+</div>

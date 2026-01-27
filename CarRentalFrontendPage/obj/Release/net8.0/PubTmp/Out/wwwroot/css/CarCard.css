@@ -1,0 +1,93 @@
+﻿
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .card:hover {
+        box-shadow: 0 0 15px 5px var(--mainHover);
+        transform: scale(1.005);
+    }
+
+.cardImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+.cardOverlay {
+    position: absolute;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    color: var(--mainColor);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    cursor: pointer;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+    .cardOverlay h5 {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+.divTop {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-top: 50px;
+    height: 100%;
+}
+
+.divBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+    .divBottom > :first-child {
+        align-self: center;
+    }
+
+    .divBottom > :last-child {
+        align-self: flex-end;
+    }
+
+.divLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+    .divLeft > :first-child {
+        align-self: center;
+    }
+
+.priceB {
+    background-color: var(--mainHeaderColor);
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 9px 15px;
+}
+
+    .priceB:hover {
+        background-color: var(--mainHover);
+    }

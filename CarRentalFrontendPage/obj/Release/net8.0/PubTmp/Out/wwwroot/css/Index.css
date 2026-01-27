@@ -1,0 +1,139 @@
+﻿/* Advantages */
+.advantagesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    width: 100%;
+}
+
+    .advantagesContainer h3 {
+        color: var(--mainHeaderColor)
+    }
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+/* Cars random */
+.carContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 100px;
+}
+
+.carText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+    .carText h3 {
+        color: var(--mainHeaderColor)
+    }
+
+    .carText h1 {
+        color: var(--mainHeaderColor);
+        font-weight: bold;
+    }
+
+.thisWorks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+    .thisWorks h3 {
+        color: var(--mainHeaderColor);
+    }
+
+    .thisWorks h1 {
+        color: var(--mainHeaderColor);
+        font-weight: bold;
+    }
+
+
+@media (max-width: 768px) {
+
+    .heroContainer {
+        height: 35vh;
+        border-radius: 10px;
+    }
+
+    .heroContent {
+        bottom: 15px;
+        width: 90%;
+    }
+
+        .heroContent h1 {
+            font-size: 32px;
+            padding: 2px 5px;
+        }
+
+        .heroContent p {
+            font-size: 16px;
+            padding: 2px 5px;
+        }
+
+    .rentalB {
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+
+    /* ===== Advantages ===== */
+    .advantagesContainer {
+        gap: 25px;
+        padding: 10px;
+    }
+
+    .cardContainer {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        align-items: center;
+    }
+
+    /* ===== Cars Section ===== */
+    .carContainer {
+        gap: 50px;
+        padding: 10px;
+    }
+
+    .carText {
+        gap: 20px;
+        padding: 10px;
+    }
+
+        .carText h1 {
+            font-size: 28px;
+        }
+
+        .carText h3 {
+            font-size: 18px;
+        }
+
+    /* ===== This Works ===== */
+    .thisWorks {
+        gap: 15px;
+        padding: 10px;
+    }
+
+        .thisWorks h1 {
+            font-size: 28px;
+        }
+
+        .thisWorks h3 {
+            font-size: 18px;
+        }
+}
+
