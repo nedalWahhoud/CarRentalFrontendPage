@@ -6,8 +6,15 @@
     gap: 50px;
     padding: 20px;
     width: 100%;
+    /**/
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
-
+    .advantagesContainer.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
     .advantagesContainer h3 {
         color: var(--mainHeaderColor)
     }
@@ -19,13 +26,94 @@
     gap: 50px;
     width: 100%;
 }
+
+/* Pickup Service Section */
+.pickupContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 60px 20px;
+    width: 100%;
+    /*  */
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+    .pickupContainer.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .pickupContainer a {
+        display: inline-block;
+        padding: 12px 35px;
+        width: fit-content; 
+        align-self: center; 
+        background-color: var(--mainHeaderColor);
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        border: 2px solid var(--mainHeaderColor);
+        cursor: pointer;
+    }
+
+        .pickupContainer a:hover {
+            background-color: transparent;
+            color: var(--mainHeaderColor);
+            transform: translateY(-3px);
+        }
+.pickupText {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+    .pickupText h3 {
+        color: var(--mainHeaderColor);
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .pickupText h1 {
+        color: var(--mainHeaderColor);
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+.pickupImage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+    .pickupImage img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 15px; 
+        filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1)); يمكنك إضافة ظل للصورة هنا 
+    }
+
 /* Cars random */
 .carContainer {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 100px;
+    /**/
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
+    .carContainer.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
 
 .carText {
     display: flex;
@@ -51,8 +139,15 @@
     gap: 20px;
     padding: 20px;
     width: 100%;
+    /**/
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
-
+    .thisWorks.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
     .thisWorks h3 {
         color: var(--mainHeaderColor);
     }
@@ -102,7 +197,25 @@
         width: 100%;
         align-items: center;
     }
+    /* pickupContainer */
+    .pickupContainer {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 15px;
+        gap: 40px;
+    }
 
+    .pickupText {
+        align-items: center; /* توسيط العناصر في الموبايل */
+    }
+
+        .pickupText h1 {
+            font-size: 1.8rem;
+        }
+
+    .pickupImage {
+        order: -1; /* يجعل الصورة تظهر فوق النص في الموبايل */
+    }
     /* ===== Cars Section ===== */
     .carContainer {
         gap: 50px;

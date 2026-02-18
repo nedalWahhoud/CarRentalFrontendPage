@@ -1,30 +1,8 @@
-﻿.divMain {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+﻿.logoImg {
+    height: 160px; 
 }
-
-    .divMain h2 a{
-        margin: 0;
-        font-size: 26px;
-        font-weight: bold;
-        color: var(--mainColor);
-        cursor: pointer;
-        text-decoration:none;
-    }
-
 @media (max-width: 768px) {
-    .divMain {
-        width: 160px;
-        height: 100px;
-        white-space: normal;
-        word-wrap: break-word;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        text-align: center;
+    .logoImg {
+        height: 160px;
     }
-
-        .divMain h2 {
-            font-size: 15px !important;
-        }
 }

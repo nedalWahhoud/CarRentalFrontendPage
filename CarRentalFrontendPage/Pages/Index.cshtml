@@ -10,7 +10,7 @@
 {
     ImageUrl = "/CarImages/HeroBanner.webp",
     LastModified = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ"),
-    Title = "Willkommen bei Sportwagen Vermietung",
+    Title = "Willkommen bei Allgäuer Auto Vermietung",
     HeroMainSubtitle = new CarRentalFrontendPage.Pages.Layout.HeroMainSubtitle
     {
         Subtitle = "Erlebe pure Performance – jetzt mieten!",
@@ -23,27 +23,48 @@
     <h3 class="mb-3 text-center">Unsere Vorteile</h3>
     <div class="cardContainer">
         @await Html.PartialAsync("Layout/TextCard", new CarRentalFrontendPage.Pages.Layout.TextCardPageModel
-   {
-       Icon = "bi bi-clock display-3 mb-2",
-       Title = "Flexibel Mieten",
-       Description = "Tagweise, Wochenendeweise oder ganze Woche",
-       Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "300px", Height = "240px" }
-   })
+        {
+          Icon = "bi bi-geo-alt display-3 mb-2",
+          Title = "Abhol-Bringservice",
+          Description = "Bequemer Abhol- & Bringservice von/zu Flughäfen oder Bahnhöfen",
+          Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "300px", Height = "240px" }
+        })
         @await Html.PartialAsync("Layout/TextCard", new CarRentalFrontendPage.Pages.Layout.TextCardPageModel
-   {
-       Icon = "bi bi-whatsapp display-3 mb-2",
-       Title = "Unkompliziert",
-       Description = "Die Buchung erfolgt ganz bequem über WhatsApp!",
-       Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "300px", Height = "240px" }
-   })
+        {
+          Icon = "bi bi-clock display-3 mb-2",
+          Title = "Flexibel Mieten",
+          Description = "Tagweise, Wochenendeweise oder ganze Woche",
+          Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "300px", Height = "240px" }
+        })
         @await Html.PartialAsync("Layout/TextCard", new CarRentalFrontendPage.Pages.Layout.TextCardPageModel
-   {
-       Icon = "bi bi-currency-euro display-3 mb-2",
-       Title = "Faire Preise",
-       Description = "Unsere Preise sind so fair wie möglich kalkuliert!",
-       Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "300px", Height = "240px" }
-   })
+        {
+          Icon = "bi bi-whatsapp display-3 mb-2",
+          Title = "Unkompliziert",
+          Description = "Die Buchung erfolgt ganz bequem über WhatsApp!",
+          Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "300px", Height = "240px" }
+        })
+        @await Html.PartialAsync("Layout/TextCard", new CarRentalFrontendPage.Pages.Layout.TextCardPageModel
+        {
+          Icon = "bi bi-currency-euro display-3 mb-2",
+          Title = "Faire Preise",
+          Description = "Unsere Preise sind so fair wie möglich kalkuliert!",
+          Cardstyle = new CarRentalFrontendPage.Pages.Layout.TextCardPageModel.CardStyle { Width = "300px", Height = "240px" }
+        })
     </div>
+</div>
+
+<!-- abhol und bringservice -->
+<div class="pickupContainer">
+	<div class="pickupText">
+		<h3>Abhol- und Bringservice</h3>
+        <h1>Bequemer Abhol- & Bringservice zum Flughäfen oder Wunschadresse oder von Flüghäfen bahnhöfen usw.!</h1>
+        <a href="https://wa.me/49123456789?text=Hallo! Ich habe Interesse an einer Fahrzeugmiete mit Abholservice. Bitte um weitere Infos. Vielen Dank!" target="_blank">
+            Anfragen
+        </a>
+	</div>
+	<div class="pickupImage">
+		<img src="/CarImages/PickupService.png" alt="Abhol- und Bringservice" />
+	</div>
 </div>
 
 <!-- Random Cars -->

@@ -41,12 +41,28 @@
       "PackagePath": "staticwebassets\\CarImages\\1\\Side.webp"
     },
     {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\2\\DPImage.png",
+      "PackagePath": "staticwebassets\\CarImages\\2\\DPImage.png"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\3\\DPImage.png",
+      "PackagePath": "staticwebassets\\CarImages\\3\\DPImage.png"
+    },
+    {
       "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\DPImage.png",
       "PackagePath": "staticwebassets\\CarImages\\DPImage.png"
     },
     {
       "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\HeroBanner.webp",
       "PackagePath": "staticwebassets\\CarImages\\HeroBanner.webp"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\LogoImg.png",
+      "PackagePath": "staticwebassets\\CarImages\\LogoImg.png"
+    },
+    {
+      "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\PickupService.png",
+      "PackagePath": "staticwebassets\\CarImages\\PickupService.png"
     },
     {
       "Id": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\Question.webp",

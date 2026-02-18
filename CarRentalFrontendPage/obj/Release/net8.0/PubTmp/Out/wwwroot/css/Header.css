@@ -13,29 +13,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-    .header .containerLeft,
-    .header .containerCenter,
-    .header .containerRight {
-        flex: 1;
-        display: flex;
-        align-items: center;
-    }
 
-    .header .containerLeft {
-        padding-left: 2rem;
-        justify-content: center;
-    }
-
-    .header .containerCenter {
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-    }
-
-    .header .containerRight {
-        justify-content: center;
-        gap: 1rem;
-    }
 /* dropdown */
 .dropdownCar,
 .dropdown {
@@ -105,7 +83,7 @@
     display: inline-block;
 }
 
-    .dropdownCar:hover .dropdownButtonCar {
+    .dropdownCar:hover .dropdownCar {
         color: var(--mainHover);
     }
 
@@ -113,7 +91,7 @@
         display: flex;
     }
 
-.dropdownButtonCar {
+.dropdownCar {
     background-color: var(--mainHeaderColor);
     color: var(--mainColor);
     border: none;
@@ -121,6 +99,7 @@
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    text-decoration:none;
 }
 
 
@@ -161,16 +140,8 @@
 @media (max-width: 768px) {
     .header {
         height: auto !important;
-        padding: 0.5rem;
     }
 
-        .header .containerLeft,
-        .header .containerCenter,
-        .header .containerRight {
-            flex: none !important;
-            display: flex !important;
-            align-items: center !important;
-        }
 
     .menuToggle {
         font-size: 30px;
@@ -189,10 +160,6 @@
     .booking {
         padding: 4px !important;
         font-size: 14px !important;
-    }
-
-    .containerRight {
-        justify-content: flex-end;
     }
 
     .dropdownMenu {

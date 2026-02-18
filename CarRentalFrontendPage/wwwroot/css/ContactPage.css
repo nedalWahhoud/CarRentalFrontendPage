@@ -4,6 +4,7 @@
     width: 100%;
     padding: 100px;
     gap: 30px;
+    margin-top:60px;
 }
 
 
@@ -97,36 +98,36 @@
 }
 
 @media (max-width: 768px) {
-    .carContainer {
+    .carContainerContact {
         flex-direction: column;
         padding: 30px 15px;
         gap: 20px;
     }
 
-    .leftSection,
-    .rightSection {
+    .leftSectionContact,
+    .rightSectionContact {
         flex: unset;
         width: 100%;
         padding: 10px;
         gap: 20px;
     }
 
-    .heroImage {
+    .heroImageContact {
         height: 40vh;
         border-radius: 30px;
     }
 
-    .rightSection > :nth-child(2) {
+    .rightSectionContact > :nth-child(2) {
         font-size: 32px;
     }
 
-    .rightSection p,
-    .rightSection p:not(:first-of-type) i {
+    .rightSectionContact p,
+    .rightSectionContact p:not(:first-of-type) i {
         font-size: 16px;
         margin-right: 10px;
     }
 
-    .sendButton {
+    .sendButtonContact {
         width: 100%;
         padding: 10px;
         font-size: 14px;

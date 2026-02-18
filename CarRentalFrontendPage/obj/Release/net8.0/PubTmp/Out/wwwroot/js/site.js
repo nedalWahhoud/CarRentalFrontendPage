@@ -2,20 +2,18 @@
 function openMap(lat, lng) {
         window.open(`https://www.google.com/maps?q=${lat},${lng}`, "_blank");
 }
+// email
 function openEmail(email) {
         const subject = encodeURIComponent("Anfrage zur Fahrzeugvermietung");
     const body = encodeURIComponent("Hallo, ich habe eine Frage...");
     window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
 }
-
+// phone
 function openPhone(number) {
         window.location.href = `tel:${number}`;
 }
 
-/* header */
-function goToCar(id) {
-        window.location.href = `/car/${id}`;
-}
+// booking
 function openBooking(carName) {
         let message = "Hi, ich möchte ein Fahrzeug mieten / reservieren.";
     if (carName) {
@@ -25,44 +23,46 @@ function openBooking(carName) {
     const url = `https://wa.me/?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
 }
+// open car menu
 function openCarMenu() {
         document.getElementById("carMenu").style.display = "block";
 }
+// close car menu
 function closeCarMenu() {
         document.getElementById("carMenu").style.display = "none";
 }
-/* */
+// go home
 function goHome() {
     window.location.href = "/";
 }
-
+// open WhatsApp
 function openWhatsApp(message) {
     const url = `https://wa.me/?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
 }
-
+// open WhatsApp
 function openWhatsApp(message) {
     const url = `https://wa.me/?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
 }
-
+// open email
 function openPhone(phoneNumber) {
     window.location.href = `tel:${phoneNumber}`;
 }
-
+// show image modal
 function showImage(url) {
     document.getElementById("modalImg").src = url;
     document.getElementById("imageModal").style.display = "flex";
 }
-
+// close image modal
 function closeImage() {
     document.getElementById("imageModal").style.display = "none";
 }
-
+// scroll to price
 function scrollToPrice() {
     document.getElementById("priceSection").scrollIntoView({ behavior: 'smooth' });
 }
-
+// WhatsApp
 function openWhatsApp(msg) {
     window.open("https://wa.me/?text=" + encodeURIComponent(msg), "_blank");
 }
@@ -93,7 +93,7 @@ function onBook(carName, priceType) {
     openWhatsApp(message);
 }
 
-/* */
+// scroll end detection
  window.scrollHelper = {
     onScrollEnd: function (dotnetObj) {
         let isLoading = false; // 🚫 Verhindert Wiederholung
@@ -125,10 +125,12 @@ function onBook(carName, priceType) {
         });
     }
 };
-    function showalert(message) {
-        alert(message);
-    }
-        window.whatsappRedirect = {
+// alert
+ function showalert(message) {
+     alert(message);
+}
+// WhatsApp Redirect
+ window.whatsappRedirect = {
     openWhatsApp: function(phone, message) {
         const number = String(phone).replace(/\D/g, '');
         const text = message ? encodeURIComponent(message) : '';
@@ -154,7 +156,8 @@ function onBook(carName, priceType) {
         }
     }
 };
-        window.mapRedirect = {
+// Map Redirect
+window.mapRedirect = {
     openMap: function(latitude, longitude, label = '') {
         latitude = String(latitude).trim();
         longitude = String(longitude).trim();
@@ -200,9 +203,102 @@ function onBook(carName, priceType) {
         }
     }
 };
- window.scrollToId = function (id) {
+// scroll to id
+window.scrollToId = function (id) {
             const element = document.getElementById(id);
             if (element) {
                 element.scrollIntoView({ behavior: "smooth", block: "start" });
             }
-        };
+};
+// advantagesContainer transform
+document.addEventListener("DOMContentLoaded", () => {
+    const cards = document.querySelectorAll(".advantagesContainer");
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        },
+        {
+            threshold: 0.2
+        }
+    );
+    cards.forEach(card => observer.observe(card));
+});
+
+// carContainer transform
+document.addEventListener("DOMContentLoaded", () => {
+    const cards = document.querySelectorAll(".carContainer");
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        },
+        {
+            threshold: 0.2
+        }
+    );
+    cards.forEach(card => observer.observe(card));
+});
+
+// thisWorks transform
+document.addEventListener("DOMContentLoaded", () => {
+    const cards = document.querySelectorAll(".thisWorks");
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        },
+        {
+            threshold: 0.2
+        }
+    );
+    cards.forEach(card => observer.observe(card));
+});
+// carContainerCars transform
+document.addEventListener("DOMContentLoaded", () => {
+    const cards = document.querySelectorAll(".carContainerCars");
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        },
+        {
+            threshold: 0.2
+        }
+    );
+    cards.forEach(card => observer.observe(card));
+});
+// pickupContainer transform
+document.addEventListener("DOMContentLoaded", () => {
+    const cards = document.querySelectorAll(".pickupContainer");
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+            });
+        },
+        {
+            threshold: 0.2
+        }
+    );
+    cards.forEach(card => observer.observe(card));
+});

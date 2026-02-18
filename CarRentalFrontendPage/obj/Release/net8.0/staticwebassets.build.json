@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+BC2w6zmqLK1IHAFwg+L8udZmu82wX1698akQJfHcCs=",
+  "Hash": "Z+DfaFGMG5s9UDc95XwoX/y2+PoMnvs0VWw44voaMLE=",
   "Source": "CarRentalFrontendPage",
   "BasePath": "_content/CarRentalFrontendPage",
   "Mode": "Default",
@@ -248,6 +248,48 @@
       "OriginalItemSpec": "wwwroot\\CarImages\\1\\Side-1.webp"
     },
     {
+      "Identity": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\2\\DPImage.png",
+      "SourceId": "CarRentalFrontendPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\",
+      "BasePath": "_content/CarRentalFrontendPage",
+      "RelativePath": "CarImages/2/DPImage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9uapgljo6k",
+      "Integrity": "Ibc14bD+GcJ+EXpKLOZTuLASBshByqonysYeqtZTo8s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CarImages\\2\\DPImage.png"
+    },
+    {
+      "Identity": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\3\\DPImage.png",
+      "SourceId": "CarRentalFrontendPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\",
+      "BasePath": "_content/CarRentalFrontendPage",
+      "RelativePath": "CarImages/3/DPImage#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9uapgljo6k",
+      "Integrity": "Ibc14bD+GcJ+EXpKLOZTuLASBshByqonysYeqtZTo8s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CarImages\\3\\DPImage.png"
+    },
+    {
       "Identity": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\DPImage.png",
       "SourceId": "CarRentalFrontendPage",
       "SourceType": "Discovered",
@@ -288,6 +330,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CarImages\\HeroBanner.webp"
+    },
+    {
+      "Identity": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\LogoImg.png",
+      "SourceId": "CarRentalFrontendPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\",
+      "BasePath": "_content/CarRentalFrontendPage",
+      "RelativePath": "CarImages/LogoImg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "40tx3h0lzv",
+      "Integrity": "FBgk9/vcUcMlA654JmQLRkIKsnEgil0g0GtR/KCtlQg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CarImages\\LogoImg.png"
+    },
+    {
+      "Identity": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\PickupService.png",
+      "SourceId": "CarRentalFrontendPage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\",
+      "BasePath": "_content/CarRentalFrontendPage",
+      "RelativePath": "CarImages/PickupService#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "26jpi0lpn5",
+      "Integrity": "Sg9bhz+2kSYSvIm18qq0B7l6UTW8W6iAtFRaF6AQbtc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CarImages\\PickupService.png"
     },
     {
       "Identity": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\Question.webp",
@@ -346,8 +430,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1uphi63j5h",
-      "Integrity": "Cbdu+nM/Urg9asSl/Nu44SHhbiqo20tpSpJpYfcNn/E=",
+      "Fingerprint": "papdmon9vt",
+      "Integrity": "UafKLLTyYwQdn80X14jK0tfr8wNFzsEqDB+HEvuVX98=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\CarPage.css"
@@ -367,8 +451,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5e30clwuax",
-      "Integrity": "LZEOyCBa+7E+4IjMKlcS87qmpKwDtwslMQ6ddykdDg4=",
+      "Fingerprint": "em55lwecwm",
+      "Integrity": "Sr+HWR6Pxcunsm6cv6Zc4XOLG2hCxmOyABvUdeE6aqQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Cars.css"
@@ -388,8 +472,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8sz696cjk7",
-      "Integrity": "qPtu1YxvEnsjHRp/WULt4cW/XKb8SVzRtO/m7bvw+zc=",
+      "Fingerprint": "66evrf6t1s",
+      "Integrity": "fpCyW+wg7iYbXgBDWza/9SSagXfHlugSJqXEOXKe6YE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\ContactPage.css"
@@ -430,8 +514,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "tdcrehkq0w",
-      "Integrity": "jxbxCKL6q+qFZCvqrUGvNdRF60yfsaf6/bAkCD3sqQ0=",
+      "Fingerprint": "tb2vafpaji",
+      "Integrity": "d+wnSZCgbV78gNeljPobjTds+gJt4eAB9YcSGlaF4Ak=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Header.css"
@@ -451,8 +535,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "g9zkyvp1kd",
-      "Integrity": "fAKx10cwne/I00vwOU9pac6gwXBAXhNWX2OgiQ/Qco0=",
+      "Fingerprint": "9afgjq73p1",
+      "Integrity": "n4NXQvSWQGaohkY/ceHB1vlAfzQlidxF3hdCrC2CH+s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\HeroCar.css"
@@ -472,8 +556,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7b4eh6imj8",
-      "Integrity": "UzZZwHUxSRYS/uGrps823UJdGS1faSkVfOTdOnBIyJE=",
+      "Fingerprint": "8o4xsgos2p",
+      "Integrity": "GA4SyoIXqquuPcZYVRmbhEWJgE2aINv0dAq7IUfBpmI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Index.css"
@@ -514,8 +598,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qs02cz8ksv",
-      "Integrity": "dhdpRCscp17oviJGnWEYb+tJ1v9mLAYbRnVhTStx9lU=",
+      "Fingerprint": "ppfk6ovp5q",
+      "Integrity": "jeKbWxP/lHxO/AaMes2iBF0cQm6I27aek9w2I7JAuqE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\ProjektLogo.css"
@@ -640,8 +724,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "g14cf85ebj",
-      "Integrity": "dP4XGKApAaUtu9NeB1OO/KF77A7bfQGM1U9NdDTpqE4=",
+      "Fingerprint": "51xarprlcr",
+      "Integrity": "R0vAUFSoN0S119BOP2nclIgFaMegyU07bpaia3LRBts=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -2584,6 +2668,170 @@
       ]
     },
     {
+      "Route": "CarImages/2/DPImage.9uapgljo6k.png",
+      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\2\\DPImage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ibc14bD+GcJ+EXpKLOZTuLASBshByqonysYeqtZTo8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 09:46:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9uapgljo6k"
+        },
+        {
+          "Name": "label",
+          "Value": "CarImages/2/DPImage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ibc14bD+GcJ+EXpKLOZTuLASBshByqonysYeqtZTo8s="
+        }
+      ]
+    },
+    {
+      "Route": "CarImages/2/DPImage.png",
+      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\2\\DPImage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ibc14bD+GcJ+EXpKLOZTuLASBshByqonysYeqtZTo8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 09:46:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ibc14bD+GcJ+EXpKLOZTuLASBshByqonysYeqtZTo8s="
+        }
+      ]
+    },
+    {
+      "Route": "CarImages/3/DPImage.9uapgljo6k.png",
+      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\3\\DPImage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ibc14bD+GcJ+EXpKLOZTuLASBshByqonysYeqtZTo8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 09:46:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9uapgljo6k"
+        },
+        {
+          "Name": "label",
+          "Value": "CarImages/3/DPImage.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ibc14bD+GcJ+EXpKLOZTuLASBshByqonysYeqtZTo8s="
+        }
+      ]
+    },
+    {
+      "Route": "CarImages/3/DPImage.png",
+      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\3\\DPImage.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ibc14bD+GcJ+EXpKLOZTuLASBshByqonysYeqtZTo8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 16 Dec 2025 09:46:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ibc14bD+GcJ+EXpKLOZTuLASBshByqonysYeqtZTo8s="
+        }
+      ]
+    },
+    {
       "Route": "CarImages/DPImage.9uapgljo6k.png",
       "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\DPImage.png",
       "Selectors": [],
@@ -2744,6 +2992,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-eeWa9AdgO+jRQCyVNlfrKBvT1ZLJDM8RaTxb9rUh1WA="
+        }
+      ]
+    },
+    {
+      "Route": "CarImages/LogoImg.40tx3h0lzv.png",
+      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\LogoImg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1478899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FBgk9/vcUcMlA654JmQLRkIKsnEgil0g0GtR/KCtlQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Feb 2026 11:42:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "40tx3h0lzv"
+        },
+        {
+          "Name": "label",
+          "Value": "CarImages/LogoImg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FBgk9/vcUcMlA654JmQLRkIKsnEgil0g0GtR/KCtlQg="
+        }
+      ]
+    },
+    {
+      "Route": "CarImages/LogoImg.png",
+      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\LogoImg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1478899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FBgk9/vcUcMlA654JmQLRkIKsnEgil0g0GtR/KCtlQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Feb 2026 11:42:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FBgk9/vcUcMlA654JmQLRkIKsnEgil0g0GtR/KCtlQg="
+        }
+      ]
+    },
+    {
+      "Route": "CarImages/PickupService.26jpi0lpn5.png",
+      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\PickupService.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2138009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sg9bhz+2kSYSvIm18qq0B7l6UTW8W6iAtFRaF6AQbtc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Feb 2026 18:31:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "26jpi0lpn5"
+        },
+        {
+          "Name": "label",
+          "Value": "CarImages/PickupService.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sg9bhz+2kSYSvIm18qq0B7l6UTW8W6iAtFRaF6AQbtc="
+        }
+      ]
+    },
+    {
+      "Route": "CarImages/PickupService.png",
+      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\CarImages\\PickupService.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2138009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Sg9bhz+2kSYSvIm18qq0B7l6UTW8W6iAtFRaF6AQbtc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Feb 2026 18:31:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sg9bhz+2kSYSvIm18qq0B7l6UTW8W6iAtFRaF6AQbtc="
         }
       ]
     },
@@ -3076,51 +3488,6 @@
       ]
     },
     {
-      "Route": "css/CarPage.1uphi63j5h.css",
-      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\CarPage.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9323"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Cbdu+nM/Urg9asSl/Nu44SHhbiqo20tpSpJpYfcNn/E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 14:10:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1uphi63j5h"
-        },
-        {
-          "Name": "label",
-          "Value": "css/CarPage.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Cbdu+nM/Urg9asSl/Nu44SHhbiqo20tpSpJpYfcNn/E="
-        }
-      ]
-    },
-    {
       "Route": "css/CarPage.css",
       "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\CarPage.css",
       "Selectors": [],
@@ -3131,7 +3498,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9323"
+          "Value": "9452"
         },
         {
           "Name": "Content-Type",
@@ -3139,11 +3506,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Cbdu+nM/Urg9asSl/Nu44SHhbiqo20tpSpJpYfcNn/E=\""
+          "Value": "\"UafKLLTyYwQdn80X14jK0tfr8wNFzsEqDB+HEvuVX98=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 14:10:59 GMT"
+          "Value": "Mon, 09 Feb 2026 11:19:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3153,13 +3520,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Cbdu+nM/Urg9asSl/Nu44SHhbiqo20tpSpJpYfcNn/E="
+          "Value": "sha256-UafKLLTyYwQdn80X14jK0tfr8wNFzsEqDB+HEvuVX98="
         }
       ]
     },
     {
-      "Route": "css/Cars.5e30clwuax.css",
-      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\Cars.css",
+      "Route": "css/CarPage.papdmon9vt.css",
+      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\CarPage.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3168,7 +3535,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "136"
+          "Value": "9452"
         },
         {
           "Name": "Content-Type",
@@ -3176,11 +3543,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LZEOyCBa+7E+4IjMKlcS87qmpKwDtwslMQ6ddykdDg4=\""
+          "Value": "\"UafKLLTyYwQdn80X14jK0tfr8wNFzsEqDB+HEvuVX98=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 14:26:36 GMT"
+          "Value": "Mon, 09 Feb 2026 11:19:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3190,15 +3557,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5e30clwuax"
+          "Value": "papdmon9vt"
         },
         {
           "Name": "label",
-          "Value": "css/Cars.css"
+          "Value": "css/CarPage.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LZEOyCBa+7E+4IjMKlcS87qmpKwDtwslMQ6ddykdDg4="
+          "Value": "sha256-UafKLLTyYwQdn80X14jK0tfr8wNFzsEqDB+HEvuVX98="
         }
       ]
     },
@@ -3213,7 +3580,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "136"
+          "Value": "345"
         },
         {
           "Name": "Content-Type",
@@ -3221,11 +3588,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LZEOyCBa+7E+4IjMKlcS87qmpKwDtwslMQ6ddykdDg4=\""
+          "Value": "\"Sr+HWR6Pxcunsm6cv6Zc4XOLG2hCxmOyABvUdeE6aqQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 14:26:36 GMT"
+          "Value": "Mon, 09 Feb 2026 11:11:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3235,13 +3602,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LZEOyCBa+7E+4IjMKlcS87qmpKwDtwslMQ6ddykdDg4="
+          "Value": "sha256-Sr+HWR6Pxcunsm6cv6Zc4XOLG2hCxmOyABvUdeE6aqQ="
         }
       ]
     },
     {
-      "Route": "css/ContactPage.8sz696cjk7.css",
-      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\ContactPage.css",
+      "Route": "css/Cars.em55lwecwm.css",
+      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\Cars.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3250,7 +3617,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2611"
+          "Value": "345"
         },
         {
           "Name": "Content-Type",
@@ -3258,11 +3625,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qPtu1YxvEnsjHRp/WULt4cW/XKb8SVzRtO/m7bvw+zc=\""
+          "Value": "\"Sr+HWR6Pxcunsm6cv6Zc4XOLG2hCxmOyABvUdeE6aqQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 12:17:40 GMT"
+          "Value": "Mon, 09 Feb 2026 11:11:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3272,7 +3639,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8sz696cjk7"
+          "Value": "em55lwecwm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Cars.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Sr+HWR6Pxcunsm6cv6Zc4XOLG2hCxmOyABvUdeE6aqQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/ContactPage.66evrf6t1s.css",
+      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\ContactPage.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2689"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fpCyW+wg7iYbXgBDWza/9SSagXfHlugSJqXEOXKe6YE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Feb 2026 14:37:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "66evrf6t1s"
         },
         {
           "Name": "label",
@@ -3280,7 +3692,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qPtu1YxvEnsjHRp/WULt4cW/XKb8SVzRtO/m7bvw+zc="
+          "Value": "sha256-fpCyW+wg7iYbXgBDWza/9SSagXfHlugSJqXEOXKe6YE="
         }
       ]
     },
@@ -3295,7 +3707,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2611"
+          "Value": "2689"
         },
         {
           "Name": "Content-Type",
@@ -3303,11 +3715,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qPtu1YxvEnsjHRp/WULt4cW/XKb8SVzRtO/m7bvw+zc=\""
+          "Value": "\"fpCyW+wg7iYbXgBDWza/9SSagXfHlugSJqXEOXKe6YE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 12:17:40 GMT"
+          "Value": "Mon, 09 Feb 2026 14:37:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3317,7 +3729,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qPtu1YxvEnsjHRp/WULt4cW/XKb8SVzRtO/m7bvw+zc="
+          "Value": "sha256-fpCyW+wg7iYbXgBDWza/9SSagXfHlugSJqXEOXKe6YE="
         }
       ]
     },
@@ -3414,7 +3826,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3933"
+          "Value": "3128"
         },
         {
           "Name": "Content-Type",
@@ -3422,11 +3834,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jxbxCKL6q+qFZCvqrUGvNdRF60yfsaf6/bAkCD3sqQ0=\""
+          "Value": "\"d+wnSZCgbV78gNeljPobjTds+gJt4eAB9YcSGlaF4Ak=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 09:05:33 GMT"
+          "Value": "Mon, 09 Feb 2026 14:31:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3436,12 +3848,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jxbxCKL6q+qFZCvqrUGvNdRF60yfsaf6/bAkCD3sqQ0="
+          "Value": "sha256-d+wnSZCgbV78gNeljPobjTds+gJt4eAB9YcSGlaF4Ak="
         }
       ]
     },
     {
-      "Route": "css/Header.tdcrehkq0w.css",
+      "Route": "css/Header.tb2vafpaji.css",
       "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\Header.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3451,7 +3863,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3933"
+          "Value": "3128"
         },
         {
           "Name": "Content-Type",
@@ -3459,11 +3871,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jxbxCKL6q+qFZCvqrUGvNdRF60yfsaf6/bAkCD3sqQ0=\""
+          "Value": "\"d+wnSZCgbV78gNeljPobjTds+gJt4eAB9YcSGlaF4Ak=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 09:05:33 GMT"
+          "Value": "Mon, 09 Feb 2026 14:31:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3473,7 +3885,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "tdcrehkq0w"
+          "Value": "tb2vafpaji"
         },
         {
           "Name": "label",
@@ -3481,7 +3893,52 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jxbxCKL6q+qFZCvqrUGvNdRF60yfsaf6/bAkCD3sqQ0="
+          "Value": "sha256-d+wnSZCgbV78gNeljPobjTds+gJt4eAB9YcSGlaF4Ak="
+        }
+      ]
+    },
+    {
+      "Route": "css/HeroCar.9afgjq73p1.css",
+      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\HeroCar.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n4NXQvSWQGaohkY/ceHB1vlAfzQlidxF3hdCrC2CH+s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Feb 2026 14:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9afgjq73p1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/HeroCar.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n4NXQvSWQGaohkY/ceHB1vlAfzQlidxF3hdCrC2CH+s="
         }
       ]
     },
@@ -3496,7 +3953,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2278"
+          "Value": "2328"
         },
         {
           "Name": "Content-Type",
@@ -3504,11 +3961,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fAKx10cwne/I00vwOU9pac6gwXBAXhNWX2OgiQ/Qco0=\""
+          "Value": "\"n4NXQvSWQGaohkY/ceHB1vlAfzQlidxF3hdCrC2CH+s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 09:05:33 GMT"
+          "Value": "Mon, 09 Feb 2026 14:39:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3518,57 +3975,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fAKx10cwne/I00vwOU9pac6gwXBAXhNWX2OgiQ/Qco0="
+          "Value": "sha256-n4NXQvSWQGaohkY/ceHB1vlAfzQlidxF3hdCrC2CH+s="
         }
       ]
     },
     {
-      "Route": "css/HeroCar.g9zkyvp1kd.css",
-      "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\HeroCar.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2278"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"fAKx10cwne/I00vwOU9pac6gwXBAXhNWX2OgiQ/Qco0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 09:05:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "g9zkyvp1kd"
-        },
-        {
-          "Name": "label",
-          "Value": "css/HeroCar.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-fAKx10cwne/I00vwOU9pac6gwXBAXhNWX2OgiQ/Qco0="
-        }
-      ]
-    },
-    {
-      "Route": "css/Index.7b4eh6imj8.css",
+      "Route": "css/Index.8o4xsgos2p.css",
       "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\Index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3578,7 +3990,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2396"
+          "Value": "5226"
         },
         {
           "Name": "Content-Type",
@@ -3586,11 +3998,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UzZZwHUxSRYS/uGrps823UJdGS1faSkVfOTdOnBIyJE=\""
+          "Value": "\"GA4SyoIXqquuPcZYVRmbhEWJgE2aINv0dAq7IUfBpmI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 09:27:34 GMT"
+          "Value": "Mon, 09 Feb 2026 18:46:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3600,7 +4012,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7b4eh6imj8"
+          "Value": "8o4xsgos2p"
         },
         {
           "Name": "label",
@@ -3608,7 +4020,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UzZZwHUxSRYS/uGrps823UJdGS1faSkVfOTdOnBIyJE="
+          "Value": "sha256-GA4SyoIXqquuPcZYVRmbhEWJgE2aINv0dAq7IUfBpmI="
         }
       ]
     },
@@ -3623,7 +4035,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2396"
+          "Value": "5226"
         },
         {
           "Name": "Content-Type",
@@ -3631,11 +4043,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UzZZwHUxSRYS/uGrps823UJdGS1faSkVfOTdOnBIyJE=\""
+          "Value": "\"GA4SyoIXqquuPcZYVRmbhEWJgE2aINv0dAq7IUfBpmI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 09:27:34 GMT"
+          "Value": "Mon, 09 Feb 2026 18:46:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3645,7 +4057,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UzZZwHUxSRYS/uGrps823UJdGS1faSkVfOTdOnBIyJE="
+          "Value": "sha256-GA4SyoIXqquuPcZYVRmbhEWJgE2aINv0dAq7IUfBpmI="
         }
       ]
     },
@@ -3742,7 +4154,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "607"
+          "Value": "118"
         },
         {
           "Name": "Content-Type",
@@ -3750,11 +4162,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dhdpRCscp17oviJGnWEYb+tJ1v9mLAYbRnVhTStx9lU=\""
+          "Value": "\"jeKbWxP/lHxO/AaMes2iBF0cQm6I27aek9w2I7JAuqE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 11:46:09 GMT"
+          "Value": "Mon, 09 Feb 2026 14:28:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3764,12 +4176,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dhdpRCscp17oviJGnWEYb+tJ1v9mLAYbRnVhTStx9lU="
+          "Value": "sha256-jeKbWxP/lHxO/AaMes2iBF0cQm6I27aek9w2I7JAuqE="
         }
       ]
     },
     {
-      "Route": "css/ProjektLogo.qs02cz8ksv.css",
+      "Route": "css/ProjektLogo.ppfk6ovp5q.css",
       "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\css\\ProjektLogo.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3779,7 +4191,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "607"
+          "Value": "118"
         },
         {
           "Name": "Content-Type",
@@ -3787,11 +4199,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dhdpRCscp17oviJGnWEYb+tJ1v9mLAYbRnVhTStx9lU=\""
+          "Value": "\"jeKbWxP/lHxO/AaMes2iBF0cQm6I27aek9w2I7JAuqE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 11:46:09 GMT"
+          "Value": "Mon, 09 Feb 2026 14:28:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3801,7 +4213,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qs02cz8ksv"
+          "Value": "ppfk6ovp5q"
         },
         {
           "Name": "label",
@@ -3809,7 +4221,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dhdpRCscp17oviJGnWEYb+tJ1v9mLAYbRnVhTStx9lU="
+          "Value": "sha256-jeKbWxP/lHxO/AaMes2iBF0cQm6I27aek9w2I7JAuqE="
         }
       ]
     },
@@ -4224,7 +4636,7 @@
       ]
     },
     {
-      "Route": "js/site.g14cf85ebj.js",
+      "Route": "js/site.51xarprlcr.js",
       "AssetFile": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4234,7 +4646,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6986"
+          "Value": "9778"
         },
         {
           "Name": "Content-Type",
@@ -4242,11 +4654,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dP4XGKApAaUtu9NeB1OO/KF77A7bfQGM1U9NdDTpqE4=\""
+          "Value": "\"R0vAUFSoN0S119BOP2nclIgFaMegyU07bpaia3LRBts=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 14:09:02 GMT"
+          "Value": "Mon, 09 Feb 2026 18:33:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4256,7 +4668,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "g14cf85ebj"
+          "Value": "51xarprlcr"
         },
         {
           "Name": "label",
@@ -4264,7 +4676,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dP4XGKApAaUtu9NeB1OO/KF77A7bfQGM1U9NdDTpqE4="
+          "Value": "sha256-R0vAUFSoN0S119BOP2nclIgFaMegyU07bpaia3LRBts="
         }
       ]
     },
@@ -4279,7 +4691,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6986"
+          "Value": "9778"
         },
         {
           "Name": "Content-Type",
@@ -4287,11 +4699,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dP4XGKApAaUtu9NeB1OO/KF77A7bfQGM1U9NdDTpqE4=\""
+          "Value": "\"R0vAUFSoN0S119BOP2nclIgFaMegyU07bpaia3LRBts=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 27 Jan 2026 14:09:02 GMT"
+          "Value": "Mon, 09 Feb 2026 18:33:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4301,7 +4713,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dP4XGKApAaUtu9NeB1OO/KF77A7bfQGM1U9NdDTpqE4="
+          "Value": "sha256-R0vAUFSoN0S119BOP2nclIgFaMegyU07bpaia3LRBts="
         }
       ]
     },

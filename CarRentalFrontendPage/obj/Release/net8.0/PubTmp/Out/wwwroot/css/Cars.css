@@ -4,4 +4,12 @@
     width: 100%;
     gap: 50px;
     margin-bottom: 50px;
+    /**/
+    opacity: 0;
+    transform: translateY(60px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
 }
+    .carContainerCars.show {
+        opacity: 1;
+        transform: translateY(0);
+    }

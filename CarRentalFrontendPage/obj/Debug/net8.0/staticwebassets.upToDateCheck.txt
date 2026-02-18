@@ -7,8 +7,12 @@ wwwroot\CarImages\1\Interior-1.webp
 wwwroot\CarImages\1\Seats.webp
 wwwroot\CarImages\1\Side.webp
 wwwroot\CarImages\1\Side-1.webp
+wwwroot\CarImages\2\DPImage.png
+wwwroot\CarImages\3\DPImage.png
 wwwroot\CarImages\DPImage.png
 wwwroot\CarImages\HeroBanner.webp
+wwwroot\CarImages\LogoImg.png
+wwwroot\CarImages\PickupService.png
 wwwroot\CarImages\Question.webp
 wwwroot\css\CarCard.css
 wwwroot\css\CarPage.css

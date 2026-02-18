@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F79FBF21-CB94-440F-A6DF-851BD148B93C}|CarRentalFrontendPage\\CarRentalFrontendPage.csproj|c:\\users\\nedal\\source\\repos\\carrentalfrontendpage\\carrentalfrontendpage\\pages\\layout\\carcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F79FBF21-CB94-440F-A6DF-851BD148B93C}|CarRentalFrontendPage\\CarRentalFrontendPage.csproj|solutionrelative:carrentalfrontendpage\\pages\\layout\\carcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F79FBF21-CB94-440F-A6DF-851BD148B93C}|CarRentalFrontendPage\\CarRentalFrontendPage.csproj|c:\\users\\nedal\\source\\repos\\carrentalfrontendpage\\carrentalfrontendpage\\pages\\carpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F79FBF21-CB94-440F-A6DF-851BD148B93C}|CarRentalFrontendPage\\CarRentalFrontendPage.csproj|solutionrelative:carrentalfrontendpage\\pages\\carpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,32 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CarPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\Pages\\CarPage.cshtml",
-              "RelativeDocumentMoniker": "CarRentalFrontendPage\\Pages\\CarPage.cshtml",
-              "ToolTip": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\Pages\\CarPage.cshtml",
-              "RelativeToolTip": "CarRentalFrontendPage\\Pages\\CarPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-27T14:30:26.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarCard.cshtml",
-              "DocumentMoniker": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\Pages\\Layout\\CarCard.cshtml",
-              "RelativeDocumentMoniker": "CarRentalFrontendPage\\Pages\\Layout\\CarCard.cshtml",
-              "ToolTip": "C:\\Users\\nedal\\source\\repos\\CarRentalFrontendPage\\CarRentalFrontendPage\\Pages\\Layout\\CarCard.cshtml",
-              "RelativeToolTip": "CarRentalFrontendPage\\Pages\\Layout\\CarCard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-27T14:29:10.637Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -5,6 +5,7 @@
     overflow: hidden;
     border-radius: 20px;
     margin-bottom: 100px;
+    margin-top: 60px;
 }
 
 .heroBannerImg {
@@ -84,6 +85,7 @@
         height: 30vh;
         margin-bottom: 50px;
         border-radius: 10px;
+        margin-top: 90px;
     }
 
     .heroContent {

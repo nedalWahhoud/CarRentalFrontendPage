@@ -62,6 +62,7 @@
 
     .toBooking:hover {
         background-color: var(--mainHover);
+        color: var(--mainColor);
     }
 
 .toContact {
@@ -364,6 +365,7 @@
 
     .rentButtonCarPage:hover {
         background-color: var(--mainHover);
+        color: var(--mainColor);
     }
 
 .priceCardBottomCarPage > p:last-child {
@@ -371,6 +373,10 @@
     font-size: 18px;
     font-weight: bold;
     padding-top: 15px;
+}
+
+.requestBtnCarPage:hover{
+    color:var(--mainColor);
 }
 
 .conditionsCarPage {
